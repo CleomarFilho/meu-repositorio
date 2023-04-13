@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.content-top{
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+.img-top{
+  width: 200px;
+  height: 150px;
+}
+.content-receita{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.content-ingredientes{
+  border: 2px solid black;
+  padding: 20px;
+}
+.content-preparo{
+    border: 2px solid black;
+    padding: 20px;
+  }
