@@ -4,10 +4,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Receita</title>
 </head>
 <body>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto assumenda autem optio maiores doloremque inventore, harum quae natus excepturi nulla cumque at? Impedit labore, tempora perspiciatis expedita reprehenderit odit? Labore?</p>
-  <p>Lorem ipsum dolor sit amet.</p>
+  <h3>Dados</h3>
+  <div class="conteiner">
+    <table class="table-principal">
+      <th>Frutas</th>
+      <th>Verduras</th>
+      <th>Grãos</th>
+      <tr class="tr-p">
+        <td>Maçã</td>
+        <td>Alface</td>
+        <td>Amendoim</td>
+      </tr>
+      <tr>
+        <td>Laranja</td>
+        <td>Beterraba</td>
+        <td>Trigo</td>
+      </tr>
+    </table>  
+    <form class="formulario">
+      <fieldset>
+      <legend>Informações Pessoais</legend>
+      <div class="content-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="content-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="content-form">
+        <label for="senha">senha:</label>
+        <input type="password" id="senha" name="senha">
+      </div>
+      <div class="content-form">
+        <span>Genero:</span>
+        <span>Masculino</span>
+        <input type="radio" id="genenro" name="genero" value="masc">
+        <span>Feminino</span>
+        <input type="radio" id="genenro" name="genero" value="fem">
+      
+      </div>
+      <div class="buttom"></div>
+      <div class="content-form">
+      <span>Linguagens:</span>
+      <input type="checkbox" id="linguagem" name="linguagem">Html
+      <input type="checkbox" id="linguagem" name="linguagem">CSS
+      <input type="checkbox" id="linguagem" name="linguagem">JS
+    </div>
+    <div class="content-form">
+      <span>Tamanho do uniforme:</span>
+      <select>  
+        <option value="p">Pequena</option>
+        <option value="m">Media</option>
+        <option value="g">Grande</option>
+      </select>
+    </div>
+      <button>Enviar</button>
+    </fieldset>
+    </form>
+  </div>
 </body>
 </html>
