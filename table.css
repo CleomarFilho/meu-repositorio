@@ -7,6 +7,7 @@
 
 h3{
   text-align: center;
+  padding: 20px;
 }
 .table-principal{
   border-collapse: collapse;
@@ -14,4 +15,21 @@ h3{
 }
 th,td{
   border: 2px solid black
+}
+.conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 15px;
+}
+.content-form{
+  padding: 5px;
+}
+button{
+  padding: 5px;
+  background-color: black;
+  color: white;
+
 }
